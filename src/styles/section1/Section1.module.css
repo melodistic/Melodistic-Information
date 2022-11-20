@@ -1,0 +1,26 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  color: #fff;
+  margin-top: -0.25rem;
+  padding: 1.25rem;
+  position: relative;
+}
+.Container img.Melody {
+  position: absolute;
+  right: 0;
+  top: 0.25rem;
+}
+.Content {
+  position: relative;
+}
+.Container img.FishBone {
+  width: 100%;
+  margin: 1rem 0;
+}
+.Header {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+}

@@ -1,0 +1,18 @@
+.Menubar {
+  width: 48px;
+  height: 48px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menubar img {
+  width: 24px;
+  height: 16px;
+}

@@ -1,0 +1,29 @@
+.Header {
+  background: #000;
+  width: 100%;
+  position: relative;
+}
+
+.GradientTop {
+  background: linear-gradient(
+    150.36deg,
+    #fa8b44 8.59%,
+    rgba(217, 85, 0, 0) 100%
+  );
+  height: 320px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  position: absolute;
+  border-style: solid;
+}
+
+.BlackTriangle {
+  background: linear-gradient(to top left, #000, #000 50%, transparent 50%);
+  top: 120px;
+  width: 100%;
+  height: 202px;
+  right: 0;
+  position: absolute;
+}
