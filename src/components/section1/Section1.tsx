@@ -11,7 +11,11 @@ const Section1 = () => {
           to music while exercising not only improves the listener's mood but
           also improves the listener’s exercise performance.
         </div>
-        <img className={styles.FishBone} src="images/fishbone.png" alt="fish-bone" />
+        <img
+          className={styles.FishBone}
+          src="images/fishbone.png"
+          alt="fish-bone"
+        />
         <div>
           However, finding the right music that fits a current exercise program
           is not easy.

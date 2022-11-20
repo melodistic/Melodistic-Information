@@ -16,3 +16,27 @@
   width: 24px;
   height: 16px;
 }
+
+.Menu {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    144.73deg,
+    #ff8334 10.78%,
+    rgba(217, 85, 0, 0.91) 96.19%
+  );
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  position: absolute;
+  padding-top: 84px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.Menu > div {
+  padding: 0 20px;
+  text-align: center;
+  font-weight: 600;
+}

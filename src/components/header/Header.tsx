@@ -1,6 +1,5 @@
 import Preview from "./Preview";
 import styles from "/src/styles/header/Header.module.css";
-import MenuBar from "./Menubar";
 
 const Header = () => {
   return (
@@ -8,7 +7,6 @@ const Header = () => {
       <div className={styles.GradientTop}></div>
       <div className={styles.BlackTriangle}></div>
       <div>
-        <MenuBar />
         <Preview />
       </div>
     </div>
