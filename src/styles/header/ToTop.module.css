@@ -1,0 +1,19 @@
+.ToTop {
+  background: #fa8b44;
+  border-radius: 50%;
+  position: fixed;
+  height:40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  bottom: 20px;
+  right: 20px;
+  z-index: 50;
+}
+
+.ToTop img {
+  width: 24px;
+  height: 24px;
+}
