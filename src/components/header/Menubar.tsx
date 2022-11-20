@@ -1,5 +1,6 @@
-import styles from "../../styles/header/Menubar.module.css";
-import menuSrc from "../../assets/menu.svg";
+import styles from "/src/styles/header/Menubar.module.css";
+import menuSrc from "/src/assets/menu.svg";
+
 const Menubar = () => {
   return (
     <div className={styles.Menubar}>
