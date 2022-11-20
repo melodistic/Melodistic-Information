@@ -20,6 +20,7 @@
 .Menu {
   width: 100vw;
   height: 100vh;
+  max-height: -webkit-fill-available;
   background: linear-gradient(
     144.73deg,
     #ff8334 10.78%,
