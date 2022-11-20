@@ -1,4 +1,5 @@
 import styles from "/src/styles/header/Preview.module.css";
+
 const Preview = () => {
   return (
     <div className={styles.PreviewContainer}>

@@ -5,7 +5,7 @@ const Section1 = () => {
     <div className={styles.Container} id="why-we-need-melodistic">
       <img src="images/melody.png" className={styles.Melody} alt="melody" />
       <div className={styles.Content}>
-        <div className={styles.Header}>Why We Need Melodistic?</div>
+        <div className="header">Why We Need Melodistic?</div>
         <div>
           Music has the power to change a person's mood and feelings. Listening
           to music while exercising not only improves the listener's mood but

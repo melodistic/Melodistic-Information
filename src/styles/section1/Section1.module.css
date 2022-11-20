@@ -7,18 +7,22 @@
   padding: 1.25rem;
   position: relative;
 }
+
 .Container img.Melody {
   position: absolute;
   right: 0;
   top: 0.25rem;
 }
+
 .Content {
   position: relative;
 }
+
 .Container img.FishBone {
   width: 100%;
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
+
 .Header {
   font-weight: 700;
   font-size: 28px;
