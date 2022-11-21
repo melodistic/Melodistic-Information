@@ -1,0 +1,29 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    color: #fff;
+    margin-top: -.75rem;
+    padding: 3rem 1.25rem 4rem;
+    position: relative;
+  }
+  .Content {
+    position: relative;
+  }
+  .Orange {
+    color: #FA8B44;
+  }
+  .Video{
+    padding: 1.5rem 0;
+  }
+  img.Image{
+    width: 100%;
+  margin: 2rem 0;
+  }
+ .Container img.Melody {
+    width: 50%;
+    height: 30%;
+    position: absolute;
+    right: 1.25rem;
+    top: 0;
+  }
