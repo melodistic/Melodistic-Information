@@ -34,6 +34,7 @@ const Section6 = () => {
       <img src="images/melody.png" className={styles.Melody} alt="melody" />
       <div className={styles.Content}>
         <div className="header">About Us</div>
+        <div className={styles.MemberList}>
         {members.map((member, index) => {
           return (
             <div className={styles.Member} key={index}>
@@ -47,7 +48,7 @@ const Section6 = () => {
               </div>
             </div>
           );
-        })}
+        })}</div>
       </div>
     </div>
   );

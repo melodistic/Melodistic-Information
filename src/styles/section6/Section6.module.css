@@ -83,3 +83,18 @@ img.Image {
   left: 0;
   position: absolute;
 }
+
+@media screen and (min-width: 1000px) {
+  .Content {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .MemberList {
+    display: flex;
+  }
+  .MemberList > div {
+    width: 33%;
+  }
+}

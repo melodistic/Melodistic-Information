@@ -12,10 +12,9 @@
 }
 .Header2 {
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   line-height: 34px;
   padding-top: 2rem;
-  text-align: right;
 }
 img.Image {
   width: calc(100% + 2.5rem);
@@ -25,4 +24,18 @@ img.Image {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .Content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .Content img.Image {
+    align-self: center;
+    margin: 2rem 0;
+    width: 95%;
+  }
 }

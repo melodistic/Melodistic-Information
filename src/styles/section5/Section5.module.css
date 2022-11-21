@@ -22,13 +22,34 @@
   height: calc((100vw - 1.5rem) * 9 / 16);
 }
 img.Image {
-    width: calc(100% + 2.5rem);
-    margin: 2rem -1.25rem;
-  }
+  width: calc(100% + 2.5rem);
+  margin: 2rem -1.25rem;
+}
 .Container img.Melody {
   width: 50%;
   height: 30%;
   position: absolute;
   right: 1.25rem;
   top: 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .Content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .YouTubePlayer {
+    width: calc(80% + 1rem);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: calc((960px - 1.5rem) * 9 / 16);
+  }
+  .Content img.Image {
+    align-self: center;
+    margin: 2rem 0;
+    width: 95%;
+  }
 }

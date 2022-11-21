@@ -18,7 +18,7 @@ const Section5 = () => {
           generating new tracks based on mood. It also allows the user to
           include their own favorite music.
         </div>
-        <img className={styles.Image} src="images/Architecture Diagram.png"/>
+        <img className={styles.Image} src="images/Architecture Diagram.png" />
       </div>
     </div>
   );
