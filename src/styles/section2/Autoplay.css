@@ -1,6 +1,10 @@
-.splide__arrow svg{
-    fill: #fa8b44 !important;
+.splide__arrow svg {
+  fill: #fa8b44 !important;
 }
-.splide__pagination__page.is-active{
-    background-color: #fa8b44 !important;
+
+.splide__arrow svg:focus {
+  outline: none;
+}
+.splide__pagination__page.is-active {
+  background-color: #fa8b44 !important;
 }
