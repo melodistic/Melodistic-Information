@@ -7,14 +7,14 @@ interface ConfusionMatrixData {
   image: string;
   label: string;
 }
-export const AutoplayExample = () => {
+export const AutoplayImage = () => {
   const options = {
     type: "loop",
     gap: "5rem",
-    autoplay: false,
+    autoplay: true,
     pauseOnHover: false,
     resetProgress: false,
-    interval: 5000,
+    interval: 4000,
     height: 'calc(80vw / 1.24 + 36px)'
   };
 
@@ -34,7 +34,7 @@ export const AutoplayExample = () => {
   ];
 
   return (
-    <div>
+    <div style={{paddingTop: '2rem'}}>
       <Splide
         options={options}
         aria-labelledby="autoplay-example-heading"
