@@ -52,7 +52,28 @@ const Section2 = () => {
           with multiple rounds of hyperparameter tuning.
         </div>
         <img className={styles.Spectrogram} src="images/mobilenet.png" />
-        <img className={styles.Spectrogram} src="images/table-model.png" />
+        <table>
+          <thead>
+            <tr>
+              <th>Model</th>
+              <th>Accuracy</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>MobileNetV2</td>
+              <td>0.938</td>
+            </tr>
+            <tr>
+              <td>InceptionV3</td>
+              <td>0.852</td>
+            </tr>
+            <tr>
+              <td>CNN Model</td>
+              <td>0.832</td>
+            </tr>
+          </tbody>
+        </table>
         <div>
           The best model to deploy in the real system is MobileNetV2 model
           (0.938).
