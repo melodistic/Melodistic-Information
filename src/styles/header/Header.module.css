@@ -26,3 +26,12 @@
   right: 0;
   position: absolute;
 }
+.Content {
+  position: relative;
+}
+
+@media screen and (min-width: 1000px) {
+  .Content {
+    display: flex;
+  }
+}

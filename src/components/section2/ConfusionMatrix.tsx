@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import styles from "/src/styles/section2/ConfusionMatrix.module.css";
 interface ConfusionMatrixData {
   image: string;
@@ -22,13 +22,11 @@ const ConfusionMatrix = () => {
       label: "CNN Model",
     },
   ];
-  const renderConfusion = (index: number, hide: boolean) => {
+  const renderConfusion = (index: number) => {
     const data = confusionList[index];
     return (
       <div
-        className={`${styles.ConfusionMatrix} ${
-          hide ? styles.hide : styles.show
-        }`}
+        className={styles.ConfusionMatrix}
         key={index}
       >
         <img src={data.image} alt={data.label} loading="lazy" />
@@ -36,27 +34,11 @@ const ConfusionMatrix = () => {
       </div>
     );
   };
-  const renderDot = (index: number, isActive: boolean) => {
-    return (
-      <div
-        className={`${styles.dot} ${
-          isActive ? styles.active : styles.inactive
-        }`}
-        onClick={() => setRenderIndex(index)}
-        key={index}
-      ></div>
-    );
-  };
   return (
     <div className={styles.ConfusionContainer}>
       {confusionList.map((_, index) => {
-        return renderConfusion(index, index == renderIndex ? false : true);
+        return renderConfusion(index);
       })}
-      <div className={styles.DotController}>
-        {confusionList.map((_, index) => {
-          return renderDot(index, index == renderIndex ? true : false);
-        })}
-      </div>
     </div>
   );
 };

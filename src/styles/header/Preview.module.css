@@ -1,4 +1,18 @@
+.PreviewContainer {
+    display: flex;
+    justify-content: center;
+}
 .PreviewContainer img {
     width: 100%;
     position: relative;
+    max-width: 600px;
+    aspect-ratio: 0.85;
 }
+
+
+@media screen and (min-width: 1000px) {
+    .PreviewContainer {
+      width: 50%;
+    }
+  }
+  

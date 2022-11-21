@@ -15,6 +15,7 @@
 .Menubar img {
   width: 24px;
   height: 16px;
+  cursor: pointer;
 }
 
 .Menubar.dark img {

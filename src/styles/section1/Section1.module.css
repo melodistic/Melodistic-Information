@@ -3,7 +3,7 @@
   flex-direction: column;
   background: #000;
   color: #fff;
-  margin-top: -.75rem;
+  margin-top: -0.75rem;
   padding: 2rem 1.25rem;
   position: relative;
 }
@@ -16,6 +16,8 @@
 
 .Content {
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .Container img.FishBone {
@@ -27,4 +29,21 @@
   font-weight: 700;
   font-size: 28px;
   line-height: 42px;
+}
+
+@media screen and (min-width: 1000px) {
+  .Container {
+    margin-top: 2rem;
+    background: transparent;
+    max-width: 50%;
+  }
+  .Container img.FishBone {
+    margin: 2rem 0;
+    width: 80%;
+    align-self: center;
+  }
+
+  .Container img.Melody {
+    top: 12rem;
+  }
 }

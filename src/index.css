@@ -52,3 +52,14 @@ div {
   line-height: 24px;
   font-size: 1rem;
 }
+
+@media screen and (min-width: 1000px) {
+  :root {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  :root {
+    font-size: 20px;
+  }
+}
