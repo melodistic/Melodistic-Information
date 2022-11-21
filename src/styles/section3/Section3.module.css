@@ -1,21 +1,16 @@
 .Container {
-    display: flex;
-    flex-direction: column;
-    background: #000;
-    color: #fff;
-    margin-top: -.75rem;
-    padding: 2rem 1.25rem 2rem;
-    position: relative;
-  }
-  .Content {
-    position: relative;
-  }
-  .Header {
-    font-weight: 700;
-    font-size: 1.75rem;
-    line-height: 42px;
-  }
-  img.Image{
-    width: 100%;
-  margin: 2rem 0;
-  }
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  color: #fff;
+  margin-top: -0.75rem;
+  padding: 4rem 1.25rem 2rem;
+  position: relative;
+}
+.Content {
+  position: relative;
+}
+img.Image {
+  width: calc(100% + 2.5rem);
+  margin: 2rem -1.25rem;
+}

@@ -1,29 +1,34 @@
 .Container {
-    display: flex;
-    flex-direction: column;
-    background: #000;
-    color: #fff;
-    margin-top: -.75rem;
-    padding: 3rem 1.25rem 4rem;
-    position: relative;
-  }
-  .Content {
-    position: relative;
-  }
-  .Orange {
-    color: #FA8B44;
-  }
-  .Video{
-    padding: 1.5rem 0;
-  }
-  img.Image{
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  color: #fff;
+  margin-top: -0.75rem;
+  padding: 3rem 1.25rem 4rem;
+  position: relative;
+}
+.Content {
+  position: relative;
+}
+.Orange {
+  color: #fa8b44;
+}
+.Video {
+  padding: 1.5rem 0;
+}
+.YouTubePlayer {
+  width: calc(100% + 1rem);
+  margin: 0 -0.5rem;
+  height: calc((100vw - 1.5rem) * 9 / 16);
+}
+img.Image {
+  width: 100%;
   margin: 2rem 0;
-  }
- .Container img.Melody {
-    width: 50%;
-    height: 30%;
-    position: absolute;
-    right: 1.25rem;
-    top: 0;
-  }
+}
+.Container img.Melody {
+  width: 50%;
+  height: 30%;
+  position: absolute;
+  right: 1.25rem;
+  top: 0;
+}

@@ -2,9 +2,9 @@ import styles from "/src/styles/section2/Section2.module.css";
 
 const Section2 = () => {
   return (
-    <div className={styles.Container} id="how-we-classify-mood-of-music">
+    <div className={styles.Container} id="how-do-we-classify-mood-of-music">
       <div className={styles.Content}>  
-        <div className="header">How We Classify Mood Of Music?</div>
+        <div className="header">How Do We Classify Mood Of Music?</div>
         <div className={styles.Leftblock}>
             <div className={styles.Block}>
                 <img src="images/01.png"/>

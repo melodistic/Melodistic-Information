@@ -1,69 +1,84 @@
 .Container {
-    display: flex;
-    flex-direction: column;
-    background: #000;
-    color: #fff;
-    margin-top: -.75rem;
-    padding: 4rem 1.25rem 4rem;
-    position: relative;
-  }
-  .Content {
-    position: relative;
-  }
-  .Header {
-    color: #FA8B44 !important;
-    font-weight: 700;
-    font-size: 1.75rem;
-    line-height: 42px;
-  }
-  .Video{
-    padding: 1.5rem 0;
-  }
-  img.Image{
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  color: #fff;
+  margin-top: -0.75rem;
+  padding: 4rem 1.25rem 4rem;
+  position: relative;
+}
+.Content {
+  position: relative;
+  margin-bottom: 8rem;
+}
+.Header {
+  color: #fa8b44 !important;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 42px;
+}
+.Video {
+  padding: 1.5rem 0;
+}
+img.Image {
+  width: 100%;
   margin: 2rem 0;
-  }
- .Container img.Melody {
-    width: 50%;
-    height: 15%;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .Member{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-  }
-  img.Member{
-    width: 40%;
-    height: auto;
-    padding-top: 1.5rem;
-  }
-  .Name{
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 42px;
-  }
-  .Lastname{
-    font-weight: 500;
-    font-size: 1.25rem;
-    color: #E0E0E0;
-    opacity: 70%;
-    line-height: 25px;
-  }
-  .Quote{
-    padding: 1rem 2.5rem;
-    text-align: center;
-    font-weight: 500;
-    font-size: 1.25rem;
-    color: #E0E0E0;
-    line-height: 30px;
-  }
-  .Gradientbottom{
-    position: absolute;
-    width: 375px;
-    height: 123px;
-    background: linear-gradient(124.04deg, #FA8B44 14.14%, rgba(217, 85, 0, 0) 171.78%);
-  }
+}
+.Container img.Melody {
+  width: 50%;
+  height: 15%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.Member {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+img.Member {
+  width: 40%;
+  height: auto;
+  padding-top: 1.5rem;
+}
+.Name {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 42px;
+}
+.Lastname {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #e0e0e0;
+  opacity: 70%;
+  line-height: 25px;
+}
+.Quote {
+  padding: 1rem 2.5rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #e0e0e0;
+  line-height: 30px;
+}
+.Gradientbottom {
+  position: absolute;
+  width: 100%;
+  height: 123px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    124.04deg,
+    #fa8b44 14.14%,
+    rgba(217, 85, 0, 0) 171.78%
+  );
+}
+.BlackTriangle {
+  background: linear-gradient(to bottom right, #000, #000 50%, transparent 50%);
+  bottom: 0;
+  width: 100%;
+  height: 123px;
+  left: 0;
+  position: absolute;
+}

@@ -1,58 +1,57 @@
 .Container {
-    display: flex;
-    flex-direction: column;
-    background: #fff;
-    color: #000;
-    margin-top: -.75rem;
-    padding: 2rem 1.25rem 5rem;
-    position: relative;
-  }
-  .Content {
-    position: relative;
-  }
-  .Header {
-    font-weight: 700;
-    font-size: 1.75rem;
-    line-height: 42px;
-  }
-  .Block {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-  }
-  .Leftblock {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-left: 0;
-    padding: 1.5rem 0rem;
-  }
-  .Rightblock {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-left: 0;
-    padding: 0rem 0rem 1.5rem;
-  }
-  .Subheader {
-    font-weight: 600;
-    font-size: 1.25rem;
-  }
-  .Block img{
-    padding: 0rem 0.5rem;
-    position: relative;
-    width: auto;
-  }
-  img{
-    display: block;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  color: #000;
+  margin-top: -0.75rem;
+  padding: 2rem 1.25rem 5rem;
+  position: relative;
+}
+.Content {
+  position: relative;
+}
+.Header {
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 42px;
+}
+.Block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.Leftblock {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 0;
+  padding: 1.5rem 0rem;
+}
+.Rightblock {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 0;
+  padding: 0rem 0rem 1.5rem;
+}
+.Subheader {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.Block img {
+  padding: 0rem 0.5rem;
+  position: relative;
+  width: auto;
+}
+img {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  }
-  .Container img.Spectrogram {
-    padding: 2rem 0rem 1.5rem;
-    
-  }
-  .Container img.model {
-    padding: 0rem 0rem 1.5rem;
-  }
+}
+.Container img.Spectrogram {
+  padding: 2rem 0rem 1.5rem;
+}
+.Container img.model {
+  padding: 0rem 0rem 1.5rem;
+}
