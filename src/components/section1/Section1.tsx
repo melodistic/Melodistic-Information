@@ -3,7 +3,12 @@ import styles from "/src/styles/section1/Section1.module.css";
 const Section1 = () => {
   return (
     <div className={styles.Container} id="why-we-need-melodistic">
-      <img src="images/melody.webp" className={styles.Melody} alt="melody" />
+      <img
+        src="images/melody.webp"
+        className={styles.Melody}
+        alt="melody"
+        loading="lazy"
+      />
       <div className={styles.Content}>
         <div className="header">Why We Need Melodistic?</div>
         <div>
@@ -15,6 +20,7 @@ const Section1 = () => {
           className={styles.FishBone}
           src="images/fishbone.webp"
           alt="fish-bone"
+          loading="lazy"
         />
         <div>
           However, finding the right music that fits a current exercise program

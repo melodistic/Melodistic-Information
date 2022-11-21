@@ -1,4 +1,3 @@
-import React from "react";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/splide/css/skyblue";
 import "/src/styles/section2/Autoplay.css";
@@ -15,7 +14,7 @@ export const AutoplayImage = () => {
     pauseOnHover: false,
     resetProgress: false,
     interval: 4000,
-    height: 'calc(80vw / 1.24 + 36px)'
+    height: "calc(80vw / 1.24 + 36px)",
   };
 
   const confusionList: Array<ConfusionMatrixData> = [
@@ -34,7 +33,7 @@ export const AutoplayImage = () => {
   ];
 
   return (
-    <div style={{paddingTop: '2rem'}}>
+    <div style={{ paddingTop: "2rem" }}>
       <Splide
         options={options}
         aria-labelledby="autoplay-example-heading"

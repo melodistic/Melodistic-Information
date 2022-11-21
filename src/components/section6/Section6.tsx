@@ -31,24 +31,35 @@ const Section6 = () => {
     <div className={styles.Container} id="about-us">
       <div className={styles.Gradientbottom}></div>
       <div className={styles.BlackTriangle}></div>
-      <img src="images/melody.webp" className={styles.Melody} alt="melody" />
+      <img
+        src="images/melody.webp"
+        className={styles.Melody}
+        alt="melody"
+        loading="lazy"
+      />
       <div className={styles.Content}>
         <div className="header">About Us</div>
         <div className={styles.MemberList}>
-        {members.map((member, index) => {
-          return (
-            <div className={styles.Member} key={index}>
-              <img src={member.image} className={styles.Image} alt="member" />
-              <div className={styles.Name}>{member.name}</div>
-              <div className={styles.Lastname}>{member.lastname}</div>
-              <div className={styles.Quote}>
-                <div>“</div>
-                <div>{member.quote}</div>
-                <div>“</div>
+          {members.map((member, index) => {
+            return (
+              <div className={styles.Member} key={index}>
+                <img
+                  src={member.image}
+                  className={styles.Image}
+                  alt={member.name}
+                  loading="lazy"
+                />
+                <div className={styles.Name}>{member.name}</div>
+                <div className={styles.Lastname}>{member.lastname}</div>
+                <div className={styles.Quote}>
+                  <div>“</div>
+                  <div>{member.quote}</div>
+                  <div>“</div>
+                </div>
               </div>
-            </div>
-          );
-        })}</div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

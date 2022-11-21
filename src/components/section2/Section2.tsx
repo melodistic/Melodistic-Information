@@ -1,5 +1,3 @@
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import { useEffect, useState } from "react";
 import { AutoplayImage } from "./AutoPlay";
 import ConfusionMatrix from "./ConfusionMatrix";
 import styles from "/src/styles/section2/Section2.module.css";
@@ -31,7 +29,12 @@ const Section2 = () => {
               images to use as input for the model.
             </div>
           </div>
-          <img className={styles.Spectrogram} src="images/spectrogram.webp" />
+          <img
+            className={styles.Spectrogram}
+            src="images/spectrogram.webp"
+            alt="spectrogram-image"
+            loading="lazy"
+          />
         </div>
         <div className={styles.Group2}>
           <div className={styles.Rightblock}>
@@ -40,7 +43,12 @@ const Section2 = () => {
               <div className={styles.Subheader}>Model Development</div>
             </div>
           </div>
-          <img className={styles.model} src="images/model-development.webp" />
+          <img
+            className={styles.model}
+            alt="model-development"
+            src="images/model-development.webp"
+            loading="lazy"
+          />
           <div className={styles.text}>
             The spectrogram image will pass into a convolutional neural network
             and fully connected network before ending with softmax layer to get

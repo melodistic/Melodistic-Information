@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styles from "/src/styles/section2/ConfusionMatrix.module.css";
 interface ConfusionMatrixData {
   image: string;
@@ -6,7 +5,6 @@ interface ConfusionMatrixData {
 }
 
 const ConfusionMatrix = () => {
-  const [renderIndex, setRenderIndex] = useState(0);
 
   const confusionList: Array<ConfusionMatrixData> = [
     {

@@ -8,10 +8,10 @@ const ToTop = () => {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
-  
+
   return (
     <div className={styles.ToTop} onClick={goToTop}>
-      <img src={arrowUpSrc} alt="arrow-up" />
+      <img src={arrowUpSrc} alt="arrow-up" loading="lazy" />
     </div>
   );
 };

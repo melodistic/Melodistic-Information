@@ -66,12 +66,19 @@ const Menubar = () => {
       {menuOpen && (
         <div className={styles.Menu}>
           {menuList.map((item) => (
-            <div onClick={() => goTo(item.id)}>{item.name}</div>
+            <div key={item.id} onClick={() => goTo(item.id)}>
+              {item.name}
+            </div>
           ))}
         </div>
       )}
       <div className={styles.Menubar} id="menubar">
-        <img src={menuSrc} alt="menu" onClick={() => setMenuOpen(!menuOpen)} />
+        <img
+          src={menuSrc}
+          alt="menu"
+          onClick={() => setMenuOpen(!menuOpen)}
+          loading="lazy"
+        />
       </div>
     </div>
   );

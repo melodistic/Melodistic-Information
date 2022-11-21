@@ -10,6 +10,7 @@ const Section5 = () => {
             className={styles.YouTubePlayer}
             src="https://www.youtube.com/embed/_suxo34jAcM"
             title="Melodistic"
+            loading="lazy"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           ></iframe>
         </div>
@@ -18,7 +19,12 @@ const Section5 = () => {
           generating new tracks based on mood. It also allows the user to
           include their own favorite music.
         </div>
-        <img className={styles.Image} src="images/architecture-diagram.webp" />
+        <img
+          className={styles.Image}
+          src="images/architecture-diagram.webp"
+          alt="architecture-diagram"
+          loading="lazy"
+        />
       </div>
     </div>
   );
