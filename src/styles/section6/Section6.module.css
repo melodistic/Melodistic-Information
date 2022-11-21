@@ -21,8 +21,6 @@
   padding: 1.5rem 0;
 }
 .Container img.Melody {
-  width: 50%;
-  height: 15%;
   position: absolute;
   right: 0;
   top: 0;
@@ -58,10 +56,11 @@ img.Image {
   color: #e0e0e0;
   line-height: 30px;
   display: flex;
-  gap: .5rem;
+  gap: 0.5rem;
 }
-.Quote > div:nth-child(1), .Quote > div:nth-last-child(1) {
-  color:#fa8b44;
+.Quote > div:nth-child(1),
+.Quote > div:nth-last-child(1) {
+  color: #fa8b44;
   font-size: 1.25rem;
 }
 .Gradientbottom {

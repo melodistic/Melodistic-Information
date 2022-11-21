@@ -58,7 +58,7 @@
 .NumberContainer > .Subheader {
   position: relative;
 }
-img {
+.Container img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -69,6 +69,8 @@ img {
 }
 .Container img.model {
   padding: 0rem 0rem 1.5rem;
+  width: calc(100% + 1rem);
+  margin: 0 -.5rem;
 }
 
 table {
@@ -89,5 +91,5 @@ table td {
   color: #5c5c5c;
   border: 1px solid #dedfe0;
   text-align: center;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }

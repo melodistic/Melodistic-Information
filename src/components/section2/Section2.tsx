@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+import ConfusionMatrix from "./ConfusionMatrix";
 import styles from "/src/styles/section2/Section2.module.css";
 
 const Section2 = () => {
@@ -51,7 +53,7 @@ const Section2 = () => {
           types of convolutional layers: MobileNetV2, InceptionV3, and CNN model
           with multiple rounds of hyperparameter tuning.
         </div>
-        <img className={styles.Spectrogram} src="images/mobilenet.png" />
+        <ConfusionMatrix />
         <table>
           <thead>
             <tr>

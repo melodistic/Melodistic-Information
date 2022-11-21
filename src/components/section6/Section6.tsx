@@ -7,7 +7,7 @@ interface Member {
   image: string;
 }
 const Section6 = () => {
-  const members: Member[] = [
+  const members: Array<Member> = [
     {
       image: "images/grape.png",
       name: "Kittiyaporn",

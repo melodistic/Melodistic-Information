@@ -17,6 +17,10 @@
   height: 16px;
 }
 
+.Menubar.dark img {
+  filter: invert(1);
+}
+
 .Menu {
   width: 100vw;
   height: 100vh;

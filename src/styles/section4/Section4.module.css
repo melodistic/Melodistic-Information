@@ -22,9 +22,7 @@ img.Image {
   margin: 2rem -1.25rem;
 }
 .Container img.Melody {
-  width: 50%;
-  height: 30%;
   position: absolute;
-  right: 1.25rem;
+  right: 0;
   top: 0;
 }

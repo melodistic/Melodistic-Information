@@ -1,6 +1,6 @@
 import styles from "/src/styles/header/Menubar.module.css";
 import menuSrc from "/src/assets/menu.svg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 interface MenuItem {
   id: string;
@@ -41,6 +41,26 @@ const Menubar = () => {
       name: "About Us",
     },
   ];
+  useEffect(() => {
+    const handleScroll = () => {
+      const element = document.getElementById(
+        "how-do-we-classify-mood-of-music"
+      );
+      if (element) {
+        const rootEl = document.getElementsByClassName("App")[0];
+        if (
+          rootEl.scrollTop >= element.offsetTop - 24 &&
+          rootEl.scrollTop <= element.offsetTop + element.offsetHeight - 32
+        ) {
+          document.getElementById("menubar")?.classList.add(styles.dark);
+        } else {
+          document.getElementById("menubar")?.classList.remove(styles.dark);
+        }
+      }
+    };
+    const rootEl = document.getElementsByClassName("App")[0];
+    if (rootEl) rootEl.addEventListener("scroll", handleScroll);
+  }, []);
   return (
     <div>
       {menuOpen && (
@@ -50,7 +70,7 @@ const Menubar = () => {
           ))}
         </div>
       )}
-      <div className={styles.Menubar}>
+      <div className={styles.Menubar} id="menubar">
         <img src={menuSrc} alt="menu" onClick={() => setMenuOpen(!menuOpen)} />
       </div>
     </div>
