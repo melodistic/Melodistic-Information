@@ -5,6 +5,8 @@ const Section4 = () => {
     <div className={styles.Container} id="melodistic-combiner-system">
       <img
         src="images/melody.webp"
+        width="165px"
+        height="175px"
         className={styles.Melody}
         alt="melody"
         loading="lazy"

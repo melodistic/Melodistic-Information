@@ -5,6 +5,8 @@ const Section1 = () => {
     <div className={styles.Container} id="why-we-need-melodistic">
       <img
         src="images/melody.webp"
+        width="165px"
+        height="175px"
         className={styles.Melody}
         alt="melody"
         loading="lazy"

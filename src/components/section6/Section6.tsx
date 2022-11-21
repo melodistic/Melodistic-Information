@@ -33,6 +33,8 @@ const Section6 = () => {
       <div className={styles.BlackTriangle}></div>
       <img
         src="images/melody.webp"
+        width="165px"
+        height="175px"
         className={styles.Melody}
         alt="melody"
         loading="lazy"
