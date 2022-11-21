@@ -10,15 +10,15 @@ const ConfusionMatrix = () => {
 
   const confusionList: Array<ConfusionMatrixData> = [
     {
-      image: "images/mobilenet.png",
+      image: "images/mobilenet.webp",
       label: "MobileNetV2",
     },
     {
-      image: "images/inception.png",
+      image: "images/inception.webp",
       label: "InceptionV3",
     },
     {
-      image: "images/cnn.png",
+      image: "images/cnn.webp",
       label: "CNN Model",
     },
   ];

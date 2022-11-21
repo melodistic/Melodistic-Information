@@ -9,19 +9,19 @@ interface Member {
 const Section6 = () => {
   const members: Array<Member> = [
     {
-      image: "images/grape.png",
+      image: "images/grape.webp",
       name: "Kittiyaporn",
       lastname: "Takrudthieng",
       quote: "You can't be a bad designer if you don't put your work on",
     },
     {
-      image: "images/op.png",
+      image: "images/op.webp",
       name: "Kaewket",
       lastname: "Saelee",
       quote: "Automation for Jira assigned this issue to you",
     },
     {
-      image: "images/gop.png",
+      image: "images/gop.webp",
       name: "Wisarut",
       lastname: "Kitticharoenphonngam",
       quote: "Tests can't fail, if there aren't any tests",
@@ -31,7 +31,7 @@ const Section6 = () => {
     <div className={styles.Container} id="about-us">
       <div className={styles.Gradientbottom}></div>
       <div className={styles.BlackTriangle}></div>
-      <img src="images/melody.png" className={styles.Melody} alt="melody" />
+      <img src="images/melody.webp" className={styles.Melody} alt="melody" />
       <div className={styles.Content}>
         <div className="header">About Us</div>
         <div className={styles.MemberList}>

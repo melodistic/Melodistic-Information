@@ -1,18 +1,16 @@
 .PreviewContainer {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .PreviewContainer img {
-    width: 100%;
-    position: relative;
-    max-width: 600px;
-    aspect-ratio: 0.85;
+  width: 100%;
+  position: relative;
+  max-width: 600px;
+  aspect-ratio: 0.87;
 }
 
-
 @media screen and (min-width: 1000px) {
-    .PreviewContainer {
-      width: 50%;
-    }
+  .PreviewContainer {
+    width: 50%;
   }
-  
+}

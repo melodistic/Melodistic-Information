@@ -5,7 +5,7 @@ const Section3 = () => {
     <div className={styles.Container} id="melodistic-processor-system">
       <div className={styles.Content}>
         <div className="header">Melodistic Processor System</div>
-        <img className={styles.Image} src="images/processor-system.png" />
+        <img className={styles.Image} src="images/processor-system.webp" />
         <div>
           To include users’ favorite music in generated track, we must process
           their music with Melodistic processor system. The first part of the

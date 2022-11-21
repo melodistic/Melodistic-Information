@@ -31,7 +31,7 @@ const Section2 = () => {
               images to use as input for the model.
             </div>
           </div>
-          <img className={styles.Spectrogram} src="images/spectrogram.png" />
+          <img className={styles.Spectrogram} src="images/spectrogram.webp" />
         </div>
         <div className={styles.Group2}>
           <div className={styles.Rightblock}>
@@ -40,7 +40,7 @@ const Section2 = () => {
               <div className={styles.Subheader}>Model Development</div>
             </div>
           </div>
-          <img className={styles.model} src="images/model-development.png" />
+          <img className={styles.model} src="images/model-development.webp" />
           <div className={styles.text}>
             The spectrogram image will pass into a convolutional neural network
             and fully connected network before ending with softmax layer to get
