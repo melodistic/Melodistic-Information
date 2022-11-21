@@ -20,10 +20,6 @@
 .Video {
   padding: 1.5rem 0;
 }
-img.Image {
-  width: 100%;
-  margin: 2rem 0;
-}
 .Container img.Melody {
   width: 50%;
   height: 15%;
@@ -37,7 +33,7 @@ img.Image {
   justify-items: center;
   align-items: center;
 }
-img.Member {
+img.Image {
   width: 40%;
   height: auto;
   padding-top: 1.5rem;
@@ -61,6 +57,12 @@ img.Member {
   font-size: 1.25rem;
   color: #e0e0e0;
   line-height: 30px;
+  display: flex;
+  gap: .5rem;
+}
+.Quote > div:nth-child(1), .Quote > div:nth-last-child(1) {
+  color:#fa8b44;
+  font-size: 1.25rem;
 }
 .Gradientbottom {
   position: absolute;

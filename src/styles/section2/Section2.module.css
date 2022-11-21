@@ -43,6 +43,21 @@
   position: relative;
   width: auto;
 }
+.NumberContainer {
+  position: relative;
+}
+.NumberContainer > .dot {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background: #fa8b44;
+  left: -8px;
+  top: -8px;
+}
+.NumberContainer > .Subheader {
+  position: relative;
+}
 img {
   display: block;
   margin-left: auto;
